@@ -79,10 +79,10 @@ function createList(which, city) {
     }
 
     // run in cloud (from v1)
-    $.get("https://loricosmosdatawriter.azurewebsites.net/api/loriwritecosmos", function(data, status){ 
+    //$.get("https://loricosmosdatawriter.azurewebsites.net/api/loriwritecosmos", function(data, status){ 
 
     //run in cloud (from v2)
-    //$.get("https://loricosmosdatawriter.azurewebsites.net/api/readfrommongo/?name="+ param, function(data, status){
+    $.get("https://loricosmosdatawriter.azurewebsites.net/api/readfrommongo/?name="+ param, function(data, status){
  
      // run local
       //$.get("http://localhost:7071/api/readfrommongo/?name=" + param, function(data, status){ 

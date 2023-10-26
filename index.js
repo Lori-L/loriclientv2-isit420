@@ -49,11 +49,11 @@ function postnew() {
 
         
         // run on azure pre pubsub
-        //url : "https://loriwritemongo.azurewebsites.net/api/lorimongowriter",
+        url : "https://loriwritemongo.azurewebsites.net/api/lorimongowriter",
         
          // run on azure with  pubsub
         
-        url : "https://loriwritetopubsub.azurewebsites.net/api/loriwritemongoandpub2",
+        //url : "https://loriwritetopubsub.azurewebsites.net/api/loriwritemongoandpub2",
 
         
         
